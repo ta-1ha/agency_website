@@ -1,0 +1,400 @@
+    * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            list-style: none;
+            width: 100vw;
+            overflow-x: hidden;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 3rem;
+        }
+        
+        .sec_p {
+            padding: 1.25rem 7rem;
+        }
+        
+        .sec_m {
+            margin: 6rem 4rem 1rem;
+        }
+              /* Header and nav basics (same as before) */
+#header {
+  max-width: 1280px;
+  margin: auto;
+  background: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+  position: relative;
+}
+header .logo {
+  color: white;
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ gap: 10px;
+margin-left: 0px;
+}
+header .logo img{
+width: 80%;
+margin: 0;
+padding: 0;
+
+}
+.logo h1{
+
+  margin-left: 0;
+}
+/* Nav */
+#navbar {
+  gap: 2rem;
+  align-items: center;
+}
+#navbar li a {
+  color: white;
+  font-size: 18px;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+#navbar li a:hover{
+    background: #00ccaa;
+    padding: 15px;
+    border-radius: 10px;
+}
+.gbtn {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.gbtn:hover {
+  background: #00ccaa;
+  color: white;
+}
+
+/* Hamburger Icon */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.menu-toggle .bar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+/* Close Icon */
+.close-icon {
+  display: none;
+  font-size: 35px;
+  color: white;
+  cursor: pointer;
+
+}
+
+/* main css */
+        .main-con{
+            margin: auto;
+            max-width: 1280px;
+         
+        }
+        main .contact-us{
+            display: flex;
+            justify-content: space-between;
+             padding: 3rem 8rem;
+            
+        }
+        main .left-side{
+            flex-basis: 30%;
+           
+        }
+
+         main .left-side h1{
+        font-size: 50px;
+        font-weight: 700;
+        }
+        .left-side>p{
+            width: 280px;
+            height: 60px;
+            font-size: 17px;
+        }
+        .contacts{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+            border-top: 1px solid #333;
+            border-bottom: 1px solid #333;
+            margin-top: 20px;
+            padding:  20px 5px;
+            align-items: center;
+        }
+
+
+
+        .right-side{
+            flex-basis: 58%;
+            
+        }
+
+        .contact-form {
+  position: absolute;
+  width: 500px;
+  background: black;
+  padding: 30px;
+  border-radius: 20px;
+  color: white;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  position: relative;
+  flex: 1;
+  min-width: 45%;
+}
+
+.input-group.full {
+  min-width: 100%;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px 5px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  resize: none;
+}
+
+.input-group label {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  color: #aaa;
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+.input-group input:focus ~ label,
+.input-group input:valid ~ label,
+.input-group textarea:focus ~ label,
+.input-group textarea:valid ~ label {
+  top: -10px;
+  font-size: 12px;
+  color: #00ffcc;
+}
+
+.right-side .contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+ .right-side .contact-form button:hover {
+  background: #00ccaa;
+}
+
+.map-container{
+  
+    padding: 4rem 7rem;
+}
+
+/* social icons */
+
+.social-box {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  background: #111;
+  padding: 10px 22px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 20px;
+  padding: 13px 15px;
+  border-radius: 50%;
+  background: #333;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.fb:hover { background: #3b5998; }
+.ig:hover { background: #e4405f; }
+.ln:hover { background: #0077b5; }
+
+ .footer {
+            background-color: black;
+            color: white;
+            display: grid;
+            grid-template-columns: 3fr 5fr 4fr;
+            padding: 4rem 6rem;
+
+           
+        }
+         .footer .left .logo{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 2px;
+         }
+         /* .footer .left .logo img{
+            width: 10%;
+         } */
+        .footer .left .logo h1 {
+           
+            color: white;
+            font-size: 2rem;
+            font-weight: 600;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.4px);
+            transition: 0.3s ease-in-out;
+          
+            padding: 0;
+           
+        }
+        
+        .footer .left .logo h1:hover {
+            color: #00ccaa;
+        }
+        
+        .footer .left .para p {
+            font-weight: 400;
+            font-size: 19px;
+            margin-top: 30px;
+            margin-right: 20px;
+        }
+        
+        .footer .middle {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 80px;
+        }
+        
+        .footer .middle .pages h2,
+        .footer .middle .utility-pages h2 {
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        
+        .footer .middle ul li {
+            list-style: none;
+            margin-bottom: 20px;
+            transition: 0.3s ease-in;
+        }
+        
+        .footer .middle ul li:hover {
+            color: #00ccaa;
+        }
+        
+        .footer .right h4 {
+            font-size: 19px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            transition: 0.3s ease-in;
+        }
+        
+        .footer .right h4:hover {
+            color: #00ccaa;
+        }
+        
+        .right input {
+            width: 100%;
+            padding: 20px;
+            border-radius: 50px;
+            outline: none;
+            position: relative;
+        }
+        
+        .footer .right .subscribe-btn {
+            padding: 11px 25px;
+            border-radius: 50px;
+            background-color: #00ccaa;
+            color: black;
+            outline: none;
+            border: none;
+            position: absolute;
+           transform: translate(-105%, 18%);
+            text-align: center;
+            font-size: 20px;
+            margin: auto;
+        }
+
+
+        /* social link */
+    .footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  background-color: #111;
+}
+
+.footer-left p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.footer-right {
+  gap: 1rem;
+  background-color: #111;
+}
+
+.footer-right a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.footer-right a:hover {
+  color: #00ccaa;
+}

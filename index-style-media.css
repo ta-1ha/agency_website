@@ -1,0 +1,917 @@
+
+/* Responsive for Mobile */
+@media (max-width: 540px) {
+    #header{
+        padding: 0.8rem 1.5rem;
+    
+        width: 100%;
+       
+    }
+  .menu-toggle {
+    display: flex;
+  }
+header .logo{
+    margin-left: 0px;
+    gap: 10px;
+}
+  #navbar {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: black;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    z-index: 99;
+    transition: 0.3s ease-out;
+  }
+
+  #navbar.show {
+    display: flex;
+    transition: 0.3s ease-out;
+  }
+
+  .gbtn {
+    width: 100%;
+    /* margin-top: 1rem; */
+    padding: 0;
+  }
+
+  .menu-toggle.hide {
+    display: none;
+  }
+
+  .close-icon.show {
+    display: block;
+    position: absolute;
+    /* font-size: 50px; */
+    top: 0.8rem;
+    right: 1.6rem;
+   transition: 0.3s ease-out;
+  }
+
+  .hero-sec {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    background-image: url(assests/Image.png);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    background-color: none;
+  }
+
+  .hero-sec .left-side {
+    margin: 2rem 1rem;
+    align-items: center;
+    gap: 1rem;
+
+  }
+
+  .text-data h1 {
+    font-size: 2rem;
+  }
+
+  .text-data h1 span {
+    font-size: 3rem;
+   
+  }
+
+  .text-data p {
+    width: 100%;
+    font-size: 1rem;
+    transform: none;
+    padding: 5px;
+  }
+
+  .gbtn {
+    width: 80%;
+    max-width: 300px;
+   padding: 20px;
+  
+  }
+ .main-con .hero-sec {
+  padding-bottom: 0;
+ }
+  .right-side {
+   display: none;
+  
+  }
+  .right-side img{
+    display: none;
+  }
+ .brand-details {
+    margin-top: 50px;
+   
+ }
+
+  .brand-details .brands {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brands-name {
+    flex: 0 0 45%;
+    margin-bottom: 1rem;
+  }
+
+  .brand-details .brand-info h4 {
+    font-size: 1rem;
+  }
+
+  .sec_p {
+    padding: 1rem;
+  }
+
+  .service-sec .heading h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .service-sec .heading h1 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+  .service-sec .heading h1 span {
+    font-size: 1.6rem;
+  }
+
+  .service-sec .services-boxes {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: center;
+  }
+
+  .service-sec .service-details {
+    width: 47%; /* two in one row */
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 0.9rem;
+    border-radius: 10px;
+  }
+
+  .service-details .logo img {
+    width: 30%;
+    padding: 0.7rem;
+  }
+
+  .service-details .content h2 {
+    font-size: 1rem;
+  }
+
+  .service-details .content p {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+  }
+
+  .main-con .about_us {
+    flex-direction: column;
+    /* padding: 2rem 1rem; */
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .about_us .left_side {
+    width: 100%;
+    height: 220px;
+    background-image: url(assests/Rectangle\ 26.png); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+   
+  }
+
+  .about_us .left_side img {
+    display: none; /* Hide image tag, background is used instead */
+   
+  }
+
+  .about_us .right_side {
+    width: 100%;
+    padding: 0.5rem 0.6rem;
+    
+    
+  }
+
+  .about_us .right_side h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.6rem;
+   
+  }
+
+  .about_us .right_side h1 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .about_us .right_side p {
+    font-size: 0.95rem;
+    margin: 0 auto 1.5rem auto;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-right: 0;
+  }
+
+  .about_us .right_side  {
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: flex-start;
+  }
+
+   .comp-help h3 {
+    font-size: 1.5rem;
+  }
+
+   span {
+    font-size: 1.1rem;
+  }
+
+  .about_us .right_side button {
+    width: 80%;
+    display: block;
+    margin: 1.5rem auto 0 auto;
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    background-color: #F4F4F4;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    
+  }
+
+        /* process section */
+           
+  .process-sec {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 2rem;
+  
+    padding: 0 1rem;
+  }
+
+  .service-process .process-details {
+    /* width: 0px; */
+    height: auto;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    box-shadow: 1px 2px 1px #00ccaa;
+    margin-bottom: 20px;
+   
+  }
+
+  .process-details .pro-con {
+    top: -15px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+
+  .pro-con p {
+    margin-top: 2px;
+    font-size: 0.75rem;
+  }
+
+  .pro-con .logo-img img,
+  .pro-con .bulb-img img,
+  .pro-con .letter-img img {
+    width: 60%;
+    padding: 6px;
+  }
+
+  .process-details .process-content {
+    margin-top: 25px;
+    font-size: 0.85rem;
+  }
+
+  .process-details .text-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+ .main-con .service-process .heading h1{
+    padding: 0;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+/* recent show case */
+  .main-con .recent-showcase h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .main-con .recent-showcase .showcase-parts {
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0 1rem;
+  }
+
+  .showcase-parts .left-showcase,
+  .showcase-parts .right-showcase {
+    display: flex;
+  
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .showcase-parts .img-text {
+    width: 100%;
+  }
+
+  .showcase-parts .img-text img {
+    width: 100%;
+    height: auto;
+  }
+.showcase-parts .img-text .text-showcase{
+ margin-left: 10px;
+    margin-top: 4px;
+}
+  .showcase-parts .img-text .text-showcase h2 {
+    font-size: 1rem;
+  }
+
+  .showcase-parts .img-text .text-showcase p {
+    font-size: 0.85rem;
+  }
+
+  .showcase-parts .right-showcase button {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 0.5rem;
+  }
+.footer .left .logo{
+  margin-left: 30px;
+}
+  .footer .left .logo h1 {
+    font-size: 3rem;
+    text-align: center;
+    
+  }
+
+  .footer .left .para p {
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem auto 0;
+    padding: 3px 20px;
+  }
+
+  .footer .middle {
+    gap: 1rem;
+    margin: 0;
+    align-items: center;
+    padding:  0rem 2rem;
+  }
+
+  .footer .middle .pages h2,
+  .footer .middle .utility-pages h2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .footer .middle ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .footer .middle ul li {
+    font-size: 1rem;
+  }
+
+  .footer .right {
+    text-align: center;
+    padding: 0 0.1rem;
+  }
+
+  .footer .right h4 {
+   display: none;
+  }
+
+  .right input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+  .footer .right .subscribe-btn {
+    position: absolute;
+    transform: none;
+    font-size: 1rem;
+    padding: 10px 20px;
+  transform: translate(-103% , 15%);
+    width: 35%;
+  }
+
+  .footer-left,
+  .footer-right {
+    gap: 0.3rem;
+    text-align: center;
+  }
+
+  .footer-right {
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-left p {
+    font-size: 14px;
+  }
+
+  .footer-right a {
+    font-size: 18px;
+  }
+
+/* =============================ABOUT US========================================= */
+ /* .main_sec{
+    padding: 0 1.2rem 0 0.7rem;
+  } */
+
+  .main_sec .section-main {
+    flex-direction: column;
+    margin: 0.4rem 0;
+    padding: 2rem 1rem;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  border-radius: 0px;
+  }
+
+  .main_sec .left-side {
+    flex: 1 1 100%;
+    width: 100%;
+    z-index: 2; /* text above images */
+    position: relative;
+  }
+
+  .main_sec .left-side p {
+    font-size: 1rem;
+    padding: 8px 0;
+  }
+
+  .main-text h1 {
+    font-size: 2.2rem;
+    line-height: 1.3;
+    z-index: 2;
+    position: relative;
+  }
+
+  .main-text h1 span {
+    font-size: 2.4rem;
+  }
+
+  .main_sec .main-con-text {
+    width: 100%;
+  }
+
+  .main_sec .right-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    
+  }
+
+  .main_sec .right-side img {
+    width: 80%;
+    opacity: 0.3;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    /* transform: translateY(20%); */
+  }
+
+  .main_sec .right-side .mid-img {
+    right: 10%;
+    top: 10%;
+  }
+
+  .main_sec .right-side .front-img {
+    right: 10%;
+    top: 20%;
+  }
+
+  .main_sec .right-side img:hover {
+    transform: none;
+  }
+
+ .our-services-details {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .our-services-details .service-details-com {
+    flex-basis: 100%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .service-details-com h4 {
+    font-size: 24px;
+  }
+
+  .service-details-com h5 {
+    font-size: 16px;
+  }
+
+  .service-details-com p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+   .about-us {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+    gap: 2rem;
+    
+  }
+
+  .about-us .left {
+    flex-basis: 100%;
+    margin-top: 0;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .about-us .left h1 {
+    font-size: 2.2rem;
+    margin-left: 0px;
+  }
+
+  .about-us .left h3 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+
+  .about-us .left p {
+    font-size: 15px;
+    padding: 4px 8px;
+  }
+
+  .our-serv {
+   
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 40px;
+  }
+
+  .our-serv ul {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  .about-us .right {
+    flex-basis: 100%;
+  }
+
+  .about-us .right img {
+    width: 90%;
+  }
+
+  .people-contracted {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .people-contracted .people-con,
+  .people-contracted .project-complete {
+    border-right: none;
+    padding: 20px 0;
+  }
+
+  .people-contracted .people-con h2,
+  .people-contracted .project-complete h2 {
+    font-size: 28px;
+  }
+
+  .people-contracted .people-con p,
+  .people-contracted .project-complete p {
+    font-size: 16px;
+    width: auto;
+  }
+
+  .people-contracted .project-complete {
+    padding: 20px 0;
+  }
+
+ .our-team {
+    padding: 0 1rem;
+  }
+
+  .our-team h1 {
+    font-size: 28px;
+    margin: 20px 0;
+   
+  }
+
+  .our-team .profile {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #202020;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 100%;
+    box-shadow: 0 0 10px #152045;
+  }
+
+  .profile-img {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-img img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .emp-details {
+    margin-top: 1rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .emp-details h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+  }
+
+  .emp-details p {
+    font-size: 15px;
+    color: #ccc;
+  }
+
+
+
+    .call-to-action {
+    margin: 2rem 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+
+  .call-to-action h1 {
+    font-size: 28px;
+    margin-bottom: 1rem;
+    padding: 0 10px;
+  }
+
+  .call-to-action button {
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 8px;
+  }
+
+  .bg-img-con {
+    padding: 2rem 1rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+  /* ================================PORTFOLIO=================================== */
+  main .portfolio-sec h1{
+    font-size: 2rem;
+    padding: 4rem;
+  }
+
+
+
+   .recent-show-case {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 1rem;
+    margin: auto;
+    gap: 1rem;
+  }
+
+  .showcase-content {
+    flex: 1 1 45%; /* Two items in a row */
+    margin: 0.5rem;
+  }
+
+  .showcase-content .img-text img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .text-showcase {
+    margin-left: 10px;
+    margin-top: 0.5rem;
+  
+  }
+
+  .text-showcase h2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .text-showcase p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 0;
+  }
+
+/* ================================PROJECT================================== */
+  .pj-img {
+    padding: 0.3rem 1rem;
+  }
+
+  .pj-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    height: 40vh;
+  }
+
+  .about-pj {
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.3rem;
+  }
+
+  .about-pj .pj-con {
+    padding: 10px 15px;
+    text-align: center;
+    width: 90%;
+  }
+
+  .pj-details {
+    padding: 3rem 1rem 0rem;
+  }
+
+  .pj-details .challenge,
+  .solution,
+  .result {
+    padding: 10px 15px;
+    margin-bottom: 20px;
+  }
+
+  .pj-details h3 {
+    font-size: 20px;
+  }
+
+  .solution ul {
+    margin-left: 1rem;
+  }
+
+  .recent-project {
+    padding: 2rem 1rem;
+  }
+
+  .recent-project h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .recent-pj {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .recent-project .rec-pj-details {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .rec-pj-details img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .rec-pj-details h2,
+  .rec-pj-details p {
+    margin-left: 0;
+    /* text-align: center; */
+    padding: 0.3rem 0.5rem;
+  }
+
+/* =============================================CONTACT MEDIA QUERIES================================================ */
+
+   main .contact-us {
+    flex-direction: column;
+    padding: 10px 5px 5px 3px;
+  }
+
+  main .left-side,
+  .right-side {
+    flex-basis: 80%;
+    width: 100%;
+  }
+    .logo {
+      margin-left: 0px;
+    }
+  main .left-side h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .left-side > p {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 10px;
+  }
+
+  .contacts {
+    justify-content: center;
+    gap: 15px;
+    padding: 15px 0;
+  }
+
+  .social-box {
+    justify-content: center;
+    margin: 10px 40px;
+  }
+
+      .right-side {
+        display: block;
+        padding: 5px 3px 5px 4px;
+    }
+.contact-form {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+
+  form .row {
+    flex-direction: column;
+    gap: 0; /* Optional: remove extra spacing between rows */
+  }
+
+  .input-group {
+    min-width: 100%;
+    margin-bottom: 20px; /* Add spacing between inputs */
+  }
+
+  .input-group.full {
+    min-width: 100%;
+  }
+
+  .right-side .contact-form button {
+    margin-top: 5px;
+    width: 30%;
+  }
+
+  .right-side .contact-form button:hover{
+    background-color: #00ccaa;
+  }
+
+  .map-container {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+ 
+  overflow: hidden;
+  border-radius: 12px;
+  margin: 2rem 1rem; 
+
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+}
+
