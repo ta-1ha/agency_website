@@ -1,6 +1,6 @@
 
 /* Responsive for Mobile */
-@media (max-width: 540px) {
+@media (max-width: 768px) {
     #header{
         padding: 0.8rem 1.5rem;
     
@@ -914,4 +914,5 @@ header .logo{
 
 
 }
+
 
