@@ -306,8 +306,9 @@ padding: 0;
                text-align: center;
         }
         
-    main   .service-sec .service-details{
+        .service-sec .service-details{
             width: 26%;
+                    background-color:pink;
             padding: 2rem 3rem 2rem 2rem;
             background-color: #F4F4F4;
             display: flex;
@@ -690,6 +691,7 @@ padding: 0;
 .footer-right a:hover {
   color: #00ccaa;
 }
+
 
 
 
